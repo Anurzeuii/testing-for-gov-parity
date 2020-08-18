@@ -1,7 +1,10 @@
+<h1>Sovereign Cloud Parity</h1>	
+
 Currently Azure Machine Learning is deployed into two sovereign clouds: 1) USGOV with regions US-Arizona + US-Virginia, and 2) Azure China in region: China-East-2. We aim to provide maximum parity between our sovereign and commercial clouds. 
 
 All Azure Machine Learning features will be available in Sovereign clouds within 30 days of GA (general availability) of our commercial cloud. We also currently enable a select number of preview features in our sovereign cloud as well.  Below display the current parity differences between our sovereign and commercial clouds. 
 
+<h2>USGOV Parity 2</h2>	
 
 | FEATURES                                                                   | Commercial Status | USGOV Availability    |-------------|
 |----------------------------------------------------------------------------|----------------------|--------------------|-------------|

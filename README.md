@@ -9,6 +9,7 @@
 | Azure Data bricks Integration                                              | GA                   | NO                 | NO          |
 | SQL, CosmosDB and HDInsight integrations                                   | GA                   | YES                | YES         |
 | Machine Learning pipelines                                                 |                      | US-Virginia        | US-Arizona  |
+|----------------------------------------------------------------------------|----------------------|--------------------|-------------|
 | Create, run and publish pipelines using the Azure ML SDK                   | GA                   | YES                | YES         |
 | Create pipeline endpoints using the Azure ML SDK                           | GA                   | YES                | YES         |
 | Create, edit and delete scheduled runs of pipelines using the Azure ML SDK | GA                   | YES                | YES         |
@@ -16,6 +17,7 @@
 | Create, run, visualize and publish pipelines in Azure ML designer          | Public Preview       | YES                | YES         |
 | Create pipeline endpoints in Azure ML designer                             | Public Preview       | YES                | YES         |
 | Integrated notebooks                                                       |                      | US-Virginia        | US-Arizona  |
+|----------------------------------------------------------------------------|----------------------|--------------------|-------------|
 | Workspace notebook and file sharing                                        | GA                   | YES                | YES         |
 | R and Python support                                                       | GA                   | YES                | YES         |
 | Virtual Network support                                                    | Public Preview       | NO                 | NO          |

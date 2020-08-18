@@ -4,7 +4,7 @@ Currently Azure Machine Learning is deployed into two sovereign clouds: 1) USGOV
 
 All Azure Machine Learning features will be available in Sovereign clouds within 30 days of GA (general availability) of our commercial cloud. We also currently enable a select number of preview features in our sovereign cloud as well.  Below display the current parity differences between our sovereign and commercial clouds.
 
-[Link display text - Email](mailto:example@mail.com)
+
 
 <h2>USGOV Parity</h2>	
 
@@ -95,7 +95,7 @@ All Azure Machine Learning features will be available in Sovereign clouds within
 <li>	For Compute instances, feature “refresh token lasting more than 24 hours” is not available in USGOV. </li>
 <li>	Model Profiling does not support 4 CPU in USGov-Arizona.   </li>
 <li>	Sample notebook may not work, if it needs access to public data in USGOV.</li>
-<li>	For Sovereign Clouds, The CLI command for [Vnet/Forced tunneling](https://docs.microsoft.com/en-us/azure/machine-learning/how-to-enable-virtual-network) does not return IP ranges: please use the [list](https://www.microsoft.com/en-us/download/details.aspx?id=57063) which contains the IPs for USGOV cloud.</li>
+<li>	For Sovereign Clouds, The CLI command for [Link display text - Email](mailto:example@mail.com)  [Vnet/Forced tunneling](https://docs.microsoft.com/en-us/azure/machine-learning/how-to-enable-virtual-network) does not return IP ranges: please use the [list](https://www.microsoft.com/en-us/download/details.aspx?id=57063) which contains the IPs for USGOV cloud.</li>
 </ol>
 
 

@@ -102,7 +102,7 @@ All Azure Machine Learning features will be available in Sovereign clouds within
 
 | FEATURES                                                                   | Commercial Status | China Availability    |-------------|
 |----------------------------------------------------------------------------|----------------------|--------------------|-------------|
-| Automated machine learning                                                 |                  | CH-East 2 | CH-North 3 |
+| <h4>Automated machine learning</h4>                                                 |                  | <h4>CH-East 2</h4> | <h4>CH-North 3</h4> |
 | Create and run experiments in notebooks                                    | GA               | YES       | N/A        |
 | Create and run experiments in studio web experience                        | Public Preview   | YES       | N/A        |
 | Industry-leading forecasting capabilities                                  | GA               | YES       | N/A        |
@@ -110,26 +110,26 @@ All Azure Machine Learning features will be available in Sovereign clouds within
 | Large data support (up to 100 GB)                                          | Public Preview   | YES       | N/A        |
 | Azure Data bricks Integration                                              | GA               | NO        | N/A        |
 | SQL, CosmosDB and HDInsight integrations                                   | GA               | YES       | N/A        |
-| Machine Learning pipelines                                                 |                  | CH-East 2 | CH-North 3 |
+| <h4>Machine Learning pipelines</h4>                                                 |                  | <h4>CH-East 2</h4> | <h4>CH-North 3</h4> |
 | Create, run and publish pipelines using the Azure ML SDK                   | GA               | YES       | N/A        |
 | Create pipeline endpoints using the Azure ML SDK                           | GA               | YES       | N/A        |
 | Create, edit and delete scheduled runs of pipelines using the Azure ML SDK | GA               | YES       | N/A        |
 | View pipeline run details in studio                                        | GA               | YES       | N/A        |
 | Create, run, visualize and publish pipelines in Azure ML designer          | Public Preview   | YES       | N/A        |
 | Create pipeline endpoints in Azure ML designer                             | Public Preview   | YES       | N/A        |
-| Integrated notebooks                                                       |                  | CH-East 2 | CH-North 3 |
+| <h4>Integrated notebooks</h4>                                                       |                  | <h4>CH-East 2</h4> | <h4>CH-North 3</h4> |
 | Workspace notebook and file sharing                                        | GA               | YES       | N/A        |
 | R and Python support                                                       | GA               | YES       | N/A        |
 | Virtual Network support                                                    | Public Preview   | NO        | N/A        |
-| Compute instance                                                           |                  | CH-East 2 | CH-North 3 |
+| <h4>Compute instance</h4>                                                           |                  | <h4>CH-East 2</h4> | <h4>CH-North 3</h4> |
 | Managed compute Instances for integrated Notebooks                         | GA               | NO        | N/A        |
 | Creation on behalf of compute instances                                    | Private Preview  | NO        | N/A        |
 | Jupyter, JupyterLab Integration                                            | GA               | YES       | N/A        |
 | Virtual Network (VNet) support                                             | Public Preview   | YES       | N/A        |
-| SDK support                                                                |                  | CH-East 2 | CH-North 3 |
+| <h4>SDK support</h4>                                                                |                  | <h4>CH-East 2</h4> | <h4>CH-North 3</h4> |
 | R SDK support                                                              | Public Preview   | YES       | N/A        |
 | Python SDK support                                                         | GA               | YES       | N/A        |
-| Security                                                                   |                  | CH-East 2 | CH-North 3 |
+| <h4>Security</h4>                                                                   |                  | <h4>CH-East 2</h4> | <h4>CH-North 3</h4> |
 | Virtual Network (VNet) support for training                                | GA               | YES       | N/A        |
 | Virtual Network (VNet) support for inference                               | GA               | YES       | N/A        |
 | Scoring endpoint authentication                                            | Public Preview   | YES       | N/A        |
@@ -140,45 +140,45 @@ All Azure Machine Learning features will be available in Sovereign clouds within
 | Private IP of Compute Instance                                             | Development      | NO        | N/A        |
 | Private endpoint support of associated resources(Storage, KV, ACR)         | Development      | NO        | N/A        |
 | Private IP of AKS cluster                                                  | Public Preview   | NO        | N/A        |
-| Compute                                                                    |                  | CH-East 2 | CH-North 3 |
+| <h4>Compute</h4>                                                                    |                  | <h4>CH-East 2</h4> | <h4>CH-North 3</h4> |
 | quota management across workspaces                                         | GA               | YES       | N/A        |
 | Azure Disk Encryption of local SSD                                         | Private Preview  | NO        | N/A        |
-| Data for machine learning                                                  |                  | CH-East 2 | CH-North 3 |
+| <h4>Data for machine learning</h4>                                                  |                  | <h4>CH-East 2</h4> | <h4>CH-North 3</h4> |
 | Create, view or edit datasets and datastores from the SDK                  | GA               | YES       | N/A        |
 | Create, view or edit datasets and datastores from the UI                   | GA               | YES       | N/A        |
 | View, edit or delete dataset drift monitors from the SDK                   | Public Preview   | YES       | N/A        |
 | View, edit or delete dataset drift monitors from the UI                    | Public Preview   | YES       | N/A        |
-| ML Lifecycle                                                               |                  | CH-East 2 | CH-North 3 |
+| <h4>ML Lifecycle</h4>                                                               |                  | <h4>CH-East 2</h4> | <h4>CH-North 3</h4> |
 | Model profiling                                                            | GA               | PARTIAL   | N/A        |
 | The Azure DevOps extension for Machine Learning & the Azure ML CLI         | GA               | YES       | N/A        |
 | FPGA based Hardware Accelerated Models                                     | GA               | NO        | N/A        |
 | Visual Studio Code integration                                             | Public Preview   | NO        | N/A        |
 | Event Grid integration                                                     | Public Preview   | YES       | N/A        |
 | Integrate Azure Stream Analytics with Azure Machine Learning               | Public Preview   | NO        | N/A        |
-| Labelling                                                                  |                  | CH-East 2 | CH-North 3 |
+| <h4>Labelling</h4>                                                                  |                  | <h4>CH-East 2</h4> | <h4>CH-North 3</h4> |
 | Labelling Project Management Portal                                        | GA               | YES       | N/A        |
 | Labeller Portal                                                            | GA               | YES       | N/A        |
 | Labelling using private workforce                                          | GA               | YES       | N/A        |
 | ML assisted labeling (Image classification and Object detection)           | Public Preview   | YES       | N/A        |
-| Responsible ML                                                             |                  | CH-East 2 | CH-North 3 |
+| <h4>Responsible ML</h4>                                                             |                  | <h4>CH-East 2</h4> | <h4>CH-North 3</h4> |
 | Explainability in UI                                                       | Public Preview   | NO        | N/A        |
 | Differential privacy WhiteNoise toolkit                                    | OSS              | NO        | N/A        |
 | custom tags in Azure Machine Learning to implement datasheets              | GA               | NO        | N/A        |
 | Fairness AzureML Integration                                               | Public Preview   | NO        | N/A        |
 | Interpretability  SDK                                                      | GA               | YES       | N/A        |
-| Training                                                                   |                  | CH-East 2 | CH-North 3 |
+| <h4>Training</h4>                                                                   |                  | <h4>CH-East 2</h4> | <h4>CH-North 3</h4> |
 | Experimentation log streaming                                              | GA               | YES       | N/A        |
 | Reinforcement Learning                                                     | Public Preview   | NO        | N/A        |
 | Experimentation UI                                                         | GA               | YES       | N/A        |
 | .NET integration ML.NET 1.0                                                | GA               | YES       | N/A        |
-| Inference                                                                  |                  | CH-East 2 | CH-North 3 |
+| <h4>Inference</h4>                                                                  |                  | <h4>CH-East 2</h4> | <h4>CH-North 3</h4> |
 | Batch inferencing                                                          | GA               | YES       | N/A        |
 | Data Box Edge with FPGA                                                    | Public Preview   | NO        | N/A        |
-| Other                                                                      |                  | CH-East 2 | CH-North 3 |
+| <h4>Other</h4>                                                                      |                  | <h4>CH-East 2</h4> | <h4>CH-North 3</h4> |
 | Open Datasets                                                              | Public Preview   | YES       | N/A        |
 | Custom Cognitive Search                                                    | Public Preview   | YES       | N/A        |
 | Many Models                                                                | Public Preview   | NO        | N/A        |
-| RBAC                                                                       |                  | CH-East 2 | CH-North 3 |
+| <h4>RBAC</h4>                                                                       |                  | <h4>VH-East 2</h4> | <h4>CH-North 3</h4> |
 | Fine Grain Access Control (Advanced RBAC)                                  | Private Preview* | YES       | N/A        |
 | Custom Role Creation                                                       | Private Preview* | YES       | N/A        |
 

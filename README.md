@@ -4,7 +4,7 @@ Currently Azure Machine Learning is deployed into two sovereign clouds: 1) USGOV
 
 All Azure Machine Learning features will be available in Sovereign clouds within 30 days of GA (general availability) of our commercial cloud. We also currently enable a select number of preview features in our sovereign cloud as well.  Below display the current parity differences between our sovereign and commercial clouds. 
 
-<h2>USGOV Parity 2</h2>	
+<h2>USGOV Parity</h2>	
 
 | FEATURES                                                                   | Commercial Status | USGOV Availability    |-------------|
 |----------------------------------------------------------------------------|----------------------|--------------------|-------------|
@@ -87,3 +87,10 @@ All Azure Machine Learning features will be available in Sovereign clouds within
 | <h4>RBAC </h4>                                                                      |                      | <h4>US-Virginia  </h4>      | <h4>US-Arizona </h4> |
 | Fine Grain Access Control (Advanced RBAC)                                  | Private Preview*     | YES                | YES         |
 | Custom Role Creation                                                       | Private Preview*     | YES                | YES         |
+
+<h2>Additional USGOV Limitations:</h2>
+1.	For Compute instances, feature “refresh token lasting more than 24 hours” is not available in USGOV. 
+2.	Model Profiling does not support 4 CPU in USGov-Arizona.                                                                                      
+3.	Sample notebook may not work, if it needs access to public data in USGOV.
+4.	For Sovereign Clouds, The CLI command for Vnet/Forced tunneling does not return IP ranges: please use the list which contains the IPs for USGOV cloud. 
+

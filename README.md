@@ -182,3 +182,21 @@ All Azure Machine Learning features will be available in Sovereign clouds within
 | Fine Grain Access Control (Advanced RBAC)                                  | Private Preview* | YES       | N/A        |
 | Custom Role Creation                                                       | Private Preview* | YES       | N/A        |
 
+
+
+<h2>Additional China Limitations:</h2>
+<ol>
+<li>	Azure China has limited VM SKU, especially for GPU SKU, only has NCv3 family (V100) </li>
+<li>	REST API Endpoint is different from public Azure:   </li>
+<li>	Sample notebook may not work, if it needs access to public data in USGOV.</li>
+<li>	For Sovereign Clouds, The CLI command for  [Vnet/Forced tunneling](https://docs.microsoft.com/en%20us/azure/machine%20learning/how%20to%20enable%20virtual%20network "Vnet/Forced tunneling") does not return IP ranges: please use this [list](https://www.microsoft.com/en-in/download/details.aspx?id=57062) contains the IP Ranges for China Sovereign clouds.</li>
+</ol>
+
+
+
+|                  | Commercial                                 | China-Government                           |
+|------------------|--------------------------------------------|--------------------------------------------|
+| Management plane | https://management.azure.com/              | https://management.chinacloudapi.cn/       |
+| Data plane       | https://{location}.experiments.azureml.net | https://{location}.experiments.ml.azure.cn |
+|                  |                                            |                                            |
+| AAD              | https://login.microsoftonline.com          | https://login.chinacloudapi.cn           

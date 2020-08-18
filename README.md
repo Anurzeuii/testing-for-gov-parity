@@ -95,7 +95,7 @@ All Azure Machine Learning features will be available in Sovereign clouds within
 <li>	For Compute instances, feature “refresh token lasting more than 24 hours” is not available in USGOV. </li>
 <li>	Model Profiling does not support 4 CPU in USGov-Arizona.   </li>
 <li>	Sample notebook may not work, if it needs access to public data in USGOV.</li>
-<li>	For Sovereign Clouds, The CLI command for  [Vnet/Forced tunneling](https://docs.microsoft.com/en%20us/azure/machine%20learning/how%20to%20enable%20virtual%20network) does not return IP ranges: please use the [list](https://www.microsoft.com/en-us/download/details.aspx?id=57063) which contains the IPs for USGOV cloud.</li>
+<li>	For Sovereign Clouds, The CLI command for [Vnet/Forced tunneling](https://docs.microsoft.com/en%20us/azure/machine%20learning/how%20to%20enable%20virtual%20network "Vnet/Forced tunneling") does not return IP ranges: please use the [list](https://www.microsoft.com/en-us/download/details.aspx?id=57063) which contains the IPs for USGOV cloud.</li>
 </ol>
 
 

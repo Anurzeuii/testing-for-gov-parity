@@ -1,4 +1,4 @@
-| FEATURES                                                                   | Commercial Milestone | USGOV Availability |             |
+| FEATURES                                                                   | Commercial Status | USGOV Availability |             |
 |----------------------------------------------------------------------------|----------------------|--------------------|-------------|
 | <h5>Automated machine learning</h5>                                        |                      | <h5>US-Virginia</h5>   | <h5>US-Arizona</h5>  |
 | Create and run experiments in notebooks                                    | GA                   | YES                | YES         |

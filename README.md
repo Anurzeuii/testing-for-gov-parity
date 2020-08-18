@@ -28,10 +28,6 @@
 | R SDK support                                                              | Public Preview       | YES                | YES         |
 | Python SDK support                                                         | GA                   | YES                | YES         |
 | Security                                                                   |                      | US-Virginia        | US-Arizona  |
-
-| FEATURES                                                                   | Commercial Milestone | USGOV Availability |             |
-|----------------------------------------------------------------------------|----------------------|--------------------|-------------|
-
 | Virtual Network (VNet) support for training                                | GA                   | YES                | YES         |
 | Virtual Network (VNet) support for inference                               | GA                   | YES                | YES         |
 | Scoring endpoint authentication                                            | Public Preview       | YES                | YES         |

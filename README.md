@@ -1,6 +1,6 @@
 | FEATURES                                                                   | Commercial Milestone | USGOV Availability |             |
 |----------------------------------------------------------------------------|----------------------|--------------------|-------------|
-| <h4>Automated machine learning</h4>                                        |                      | <h4>US-Virginia</h4>   | <h4>US-Arizona</h4>  |
+| <h5>Automated machine learning</h5>                                        |                      | <h5>US-Virginia</h5>   | <h5>US-Arizona</h5>  |
 | Create and run experiments in notebooks                                    | GA                   | YES                | YES         |
 | Create and run experiments in studio web experience                        | Public Preview       | YES                | YES         |
 | Industry-leading forecasting capabilities                                  | GA                   | YES                | YES         |

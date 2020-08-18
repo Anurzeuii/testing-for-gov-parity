@@ -8,7 +8,7 @@
 | Large data support (up to 100 GB)                                          | Public Preview       | YES                | YES         |
 | Azure Data bricks Integration                                              | GA                   | NO                 | NO          |
 | SQL, CosmosDB and HDInsight integrations                                   | GA                   | YES                | YES         |
-| Machine Learning pipelines                                                 |                      | US-Virginia        | US-Arizona  |
+<h5>| Machine Learning pipelines                                                 |                      | US-Virginia        | US-Arizona  |</h5>  
 | Create, run and publish pipelines using the Azure ML SDK                   | GA                   | YES                | YES         |
 | Create pipeline endpoints using the Azure ML SDK                           | GA                   | YES                | YES         |
 | Create, edit and delete scheduled runs of pipelines using the Azure ML SDK | GA                   | YES                | YES         |

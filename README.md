@@ -1,8 +1,8 @@
-| FEATURES                                                                   | Commercial Status | USGOV  |             |
 
-| FEATURES                                                                   | Commercial Status | USGOV  |             |
+
+| FEATURES                                                                   | Commercial Status | USGOV  |  USGOV           |
 |----------------------------------------------------------------------------|----------------------|--------------------|-------------|
-| <h5>Automated machine learning</h5>                                        |                      | <h5>US-Virginia</h5>   | <h5>US-Arizona</h5>  |
+| <h4>Automated machine learning</h4>                                        |                      | <h4>US-Virginia</h5>   | <h4>US-Arizona</h4>  |
 | Create and run experiments in notebooks                                    | GA                   | YES                | YES         |
 | Create and run experiments in studio web experience                        | Public Preview       | YES                | YES         |
 | Industry-leading forecasting capabilities                                  | GA                   | YES                | YES         |

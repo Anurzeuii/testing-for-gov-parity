@@ -96,6 +96,7 @@ All Azure Machine Learning features will be available in Sovereign clouds within
 <li>	Model Profiling does not support 4 CPU in USGov-Arizona.   </li>
 <li>	Sample notebook may not work, if it needs access to public data in USGOV.</li>
 <li>	For Sovereign Clouds, The CLI command for [Vnet/Forced tunneling](http://https://docs.microsoft.com/en-us/azure/machine-learning/how-to-enable-virtual-network "Vnet/Forced tunneling") does not return IP ranges: please use the [list](https://www.microsoft.com/en-us/download/details.aspx?id=57063) which contains the IPs for USGOV cloud.</li>
+<li> USGOV firewalls URLS are: </li>
 </ol>
 
 <h2>China Parity</h2>	

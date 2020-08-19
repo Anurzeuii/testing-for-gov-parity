@@ -87,7 +87,9 @@ All Azure Machine Learning features will be available in Sovereign clouds within
 | Custom Cognitive Search                                                    | Public Preview       | YES                | YES         |
 | Many Models                                                                | Public Preview       | NO                 | NO          |
 
-
+<
+<
+<
 
 
 |USGOV SCENARIOS:||||
@@ -105,6 +107,7 @@ All Azure Machine Learning features will be available in Sovereign clouds within
 | <h4>General Machine Learning Service Usage </h4>                                   | <h4>US-Virginia</h4> | <h4>US-Arizona</h4>| <h4>GOV Limitations </h4> |
 | "Ability to have a development environment to build a model, train that model, host it as an endpoint, and consume it via a webapp. "     | YES | YES |  |
 | Ability to pull data from ADLS (Data Lake Storage)                                 |YES | YES |  |
+| Ability to pull data from Azure Blob Storage                                       |YES | YES |  |
 
 
 

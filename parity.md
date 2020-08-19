@@ -90,6 +90,26 @@ All Azure Machine Learning features will be available in Sovereign clouds within
 | Fine Grain Access Control (Advanced RBAC)                                  | Private Preview*     | YES                | YES         |
 | Custom Role Creation                                                       | Private Preview*     | YES                | YES         |
 
+
+| USGOV SCENARIOS                                                            | ------------- | -------------    |-------------|
+|----------------------------------------------------------------------------|----------------------|--------------------|-------------|
+| <h4>General Security Setup</h4>                                                      <h4>US-Virginia</h4> | <h4>US-Arizona</h4>| <h4>GOV Limitations </h4> |
+| Private network communication between services                                     | NO | NO | No end-to-end Private Link right now for USGOV | 
+| "Disable/control internet access (inbound and outbound) and specific VNet          | PARTIAL| PARTIAL	| ACR behind vnet are not avaible in UGOV - double checking on ACI | 
+| placement for all associated resources/services"                                   | YES | YES |  |
+| Encryption at-rest and in-transit.                                                 | YES | YES |  |
+| Root and SSH access to compute resources.                                          | YES | YES |  |
+| "Maintain the security of deployed systems (instances, endpoints, etc.), including endpoint protection, patching, and logging." |  PARTIAL|	PARTIAL	|ACI behind vnet and private endpoint currently not avaible |                                  
+| Control (disable/limit/restrict) the use of ACI/AKS integration                    | PARTIAL|	PARTIAL	|ACI behind vnet and private endpoint currently not avaible|
+| Role Based Access Control (RBAC) - Custom Role Creations                           | YES | YES |  |
+| "Control access to ACR images used by ML Service (Azure provided/maintained versus custom)."  |PARTIAL|	PARTIAL	| ACR behind private endpoint and vnet not supported in USGOV |
+| <h4>General Machine Learning Service Usage </h4>                                   | <h4>US-Virginia</h4> | <h4>US-Arizona</h4>| <h4>GOV Limitations </h4> |
+| "Ability to have a development environment to build a model, train that model, host it as an endpoint, and consume it via a webapp. "     | YES | YES |  |
+| Ability to pull data from ADLS (Data Lake Storage)                                 |YES | YES |  |
+
+
+
+
 <h2>Additional USGOV Limitations:</h2>
 <ol>
 <li>	For Compute instances, feature “refresh token lasting more than 24 hours” is not available in USGOV. </li>

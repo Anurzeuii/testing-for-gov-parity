@@ -96,8 +96,8 @@ All Azure Machine Learning features will be available in Sovereign clouds within
 | placement for all associated resources/services"                                   | YES | YES |  |
 | Encryption at-rest and in-transit.                                                 | YES | YES |  |
 | Root and SSH access to compute resources.                                          | YES | YES |  |
-| "Maintain the security of deployed systems (instances, endpoints, etc.), including endpoint protection, patching, and logging." |  PARTIAL|	PARTIAL	|ACI behind vnet and private endpoint currently not avaible |                                  
-| Control (disable/limit/restrict) the use of ACI/AKS integration                    | PARTIAL|	PARTIAL	|ACI behind vnet and private endpoint currently not avaible|
+| "Maintain the security of deployed systems (instances, endpoints, etc.), including endpoint protection, patching, and logging." |  PARTIAL|	PARTIAL	|ACI behind vnet and private endpoint currently not available |                                  
+| Control (disable/limit/restrict) the use of ACI/AKS integration                    | PARTIAL|	PARTIAL	|ACI behind vnet and private endpoint currently not available|
 | Role Based Access Control (RBAC) - Custom Role Creations                           | YES | YES |  |
 | "Control access to ACR images used by ML Service (Azure provided/maintained versus custom)."  |PARTIAL|	PARTIAL	| ACR behind private endpoint and vnet not supported in USGOV |
 | <h4>General Machine Learning Service Usage </h4>                                   | <h4>US-Virginia</h4> | <h4>US-Arizona</h4>| <h4>GOV Limitations </h4> |

@@ -218,6 +218,8 @@ All Azure Machine Learning features will be available in Sovereign clouds within
 <li>	REST API Endpoint is different from public Azure:   </li>
 <li>	Sample notebook may not work, if it needs access to public data in USGOV.</li>
 <li>	For Sovereign Clouds, The CLI command for  [Vnet/Forced tunneling](http://https://docs.microsoft.com/en-us/azure/machine-learning/how-to-enable-virtual-network "Vnet/Forced tunneling") does not return IP ranges: please use this [list](https://www.microsoft.com/en-in/download/details.aspx?id=57062) contains the IP Ranges for China Sovereign clouds.</li>
+<li> Azure Machine Learning compute instances preview is not supported in a workspace where Private Link is enabled for now, but CI will be supported in the next deployment for the service expansion to all AML regions.</li>
+  
 </ol>
 
 

@@ -48,7 +48,7 @@ All Azure Machine Learning features will be available in Sovereign clouds within
 | Private IP of Compute Cluster                                              | Private Preview      | NO                 | NO          |
 | Private IP of Compute Instance                                             | Development          | NO                 | NO          |
 | Private endpoint support of associated resources(Storage, KV, ACR)         | Development          | NO                 | NO          |
-| Role Based Access Control (RBAC)                                           |Private Preview| 	    | YES	               |YES          |
+| Role Based Access Control (RBAC)                                           |Private Preview       | YES	               |YES          |
 | Private IP of AKS cluster                                                  | Public Preview       | NO                 | NO          |
 | <h4>Compute </h4>                                                                   |                      | <h4>US-Virginia </h4>       | <h4>US-Arizona </h4> |
 | quota management across workspaces                                         | GA                   | YES                | YES         |

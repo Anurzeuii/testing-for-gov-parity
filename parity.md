@@ -88,8 +88,9 @@ All Azure Machine Learning features will be available in Sovereign clouds within
 | Many Models                                                                | Public Preview       | NO                 | NO          |
 
 
-<h2>USGOV SCENARIOS:</h2>
-|||||
+
+
+|USGOV SCENARIOS:||||
 |----------------------------------------------------------------------------|----------------------|--------------------|-------------|
 |<h4>General Security Setup</h4>                                                     | <h4>US-Virginia</h4> | <h4>US-Arizona</h4>| <h4>GOV Limitations </h4> |
 | Private network communication between services                                     | NO | NO | No end-to-end Private Link right now for USGOV | 

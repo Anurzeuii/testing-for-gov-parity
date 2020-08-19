@@ -32,7 +32,6 @@ All Azure Machine Learning features will be available in Sovereign clouds within
 | Virtual Network support                                                    | Public Preview       | NO                 | NO          |
 | <h4>Compute instance </h4>                                                          |                      | <h4>US-Virginia  </h4>      | <h4>US-Arizona </h4> |
 | Managed compute Instances for integrated Notebooks                         | GA                   | YES                | YES         |
-| Creation on behalf of compute instances                                    | Private Preview      | NO                 | NO          |
 | Jupyter, JupyterLab Integration                                            | GA                   | YES                | YES         |
 | Virtual Network (VNet) support                                             | Public Preview       | YES                | YES         |
 | <h4>SDK support    </h4>                                                            |                      | <h4>US-Virginia  </h4>      | <h4>US-Arizona</h4>  |
@@ -45,14 +44,9 @@ All Azure Machine Learning features will be available in Sovereign clouds within
 | Workplace Private link                                                     | Public Preview       | NO                 | NO          |
 | ACI behind Vnet                                                            | Public Preview       | NO                 | NO          |
 | ACR behind Vnet                                                            | Public Preview       | NO                 | NO          |
-| Private IP of Compute Cluster                                              | Private Preview      | NO                 | NO          |
-| Private IP of Compute Instance                                             | Development          | NO                 | NO          |
-| Private endpoint support of associated resources(Storage, KV, ACR)         | Development          | NO                 | NO          |
-| Role Based Access Control (RBAC)                                           |Private Preview       | YES	               |YES          |
 | Private IP of AKS cluster                                                  | Public Preview       | NO                 | NO          |
 | <h4>Compute </h4>                                                                   |                      | <h4>US-Virginia </h4>       | <h4>US-Arizona </h4> |
 | quota management across workspaces                                         | GA                   | YES                | YES         |
-| Azure Disk Encryption of local SSD                                         | Private Preview      | NO                 | NO          |
 |<h4> Data for machine learning</h4>                                                  |                      | <h4>US-Virginia</h4>        | <h4>US-Arizona </h4> |
 | Create, view or edit datasets and datastores from the SDK                  | GA                   | YES                | YES         |
 | Create, view or edit datasets and datastores from the UI                   | GA                   | YES                | YES         |
@@ -149,7 +143,6 @@ All Azure Machine Learning features will be available in Sovereign clouds within
 | Virtual Network support                                                    | Public Preview   | NO        | N/A        |
 | <h4>Compute instance</h4>                                                           |                  | <h4>CH-East 2</h4> | <h4>CH-North 3</h4> |
 | Managed compute Instances for integrated Notebooks                         | GA               | NO        | N/A        |
-| Creation on behalf of compute instances                                    | Private Preview  | NO        | N/A        |
 | Jupyter, JupyterLab Integration                                            | GA               | YES       | N/A        |
 | Virtual Network (VNet) support                                             | Public Preview   | YES       | N/A        |
 | <h4>SDK support</h4>                                                                |                  | <h4>CH-East 2</h4> | <h4>CH-North 3</h4> |
@@ -162,14 +155,9 @@ All Azure Machine Learning features will be available in Sovereign clouds within
 | Workplace Private link                                                     | Public Preview   | NO        | N/A        |
 | ACI behind Vnet                                                            | Public Preview   | NO        | N/A        |
 | ACR behind Vnet                                                            | Public Preview   | NO        | N/A        |
-| Private IP of Compute Cluster                                              | Private Preview  | NO        | N/A        |
-| Private IP of Compute Instance                                             | Development      | NO        | N/A        |
-| Private endpoint support of associated resources(Storage, KV, ACR)         | Development      | NO        | N/A        |
-| Role Based Access Control (RBAC)                                           | Private Preview  | YES       | N/A        |
 | Private IP of AKS cluster                                                  | Public Preview   | NO        | N/A        |
 | <h4>Compute</h4>                                                                    |                  | <h4>CH-East 2</h4> | <h4>CH-North 3</h4> |
 | quota management across workspaces                                         | GA               | YES       | N/A        |
-| Azure Disk Encryption of local SSD                                         | Private Preview  | NO        | N/A        |
 | <h4>Data for machine learning</h4>                                                  |                  | <h4>CH-East 2</h4> | <h4>CH-North 3</h4> |
 | Create, view or edit datasets and datastores from the SDK                  | GA               | YES       | N/A        |
 | Create, view or edit datasets and datastores from the UI                   | GA               | YES       | N/A        |
@@ -205,9 +193,6 @@ All Azure Machine Learning features will be available in Sovereign clouds within
 | Open Datasets                                                              | Public Preview   | YES       | N/A        |
 | Custom Cognitive Search                                                    | Public Preview   | YES       | N/A        |
 | Many Models                                                                | Public Preview   | NO        | N/A        |
-| <h4>RBAC</h4>                                                                       |                  | <h4>VH-East 2</h4> | <h4>CH-North 3</h4> |
-| Fine Grain Access Control (Advanced RBAC)                                  | Private Preview* | YES       | N/A        |
-| Custom Role Creation                                                       | Private Preview* | YES       | N/A        |
 
 
 

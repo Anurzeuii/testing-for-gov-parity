@@ -113,16 +113,14 @@ All Azure Machine Learning features will be available in Sovereign clouds within
 
 
 
-*For Compute instances, feature “refresh token lasting more than 24 hours” is not available in USGOV.
-
 <h2>Additional USGOV Limitations:</h2>
 <ol>
 <li>	*For Compute instances, feature “refresh token lasting more than 24 hours” is not available in USGOV. </li>
 <li>	*Model Profiling does not support 4 CPU in USGov-Arizona.   </li>
-<li>	Sample notebook may not work, if it needs access to public data in USGOV.</li>
-<li>	GOV IPS: For Sovereign Clouds, The CLI command for [Vnet/Forced tunneling](http://https://docs.microsoft.com/en-us/azure/machine-learning/how-to-enable-virtual-network "Vnet/Forced tunneling") does not return IP ranges: please use the [list](https://www.microsoft.com/en-us/download/details.aspx?id=57063) which contains the IPs for USGOV cloud.</li>
-<li> For scheduled pipelines, we also provide a blob based trigger mechanism. This mechanism is not supported for CMK workspaces. . For enabling blob based trigger for CMK workspaces, user has to do additional setup which is documented here: https://docs.microsoft.com/en-us/azure/machine-learning/how-to-trigger-published-pipeline</li>
- <li> FireWalls: When using USGOV - make sure to add additional hosts in their firewall setting: For Arizona use:  "usgovarizona.api.ml.azure.us", for Virginia use: "usgovvirginia.api.ml.azure.us". Also double check - "graph.windows.net" is added as well. </li>
+<li>	*Sample notebook may not work, if it needs access to public data in USGOV.</li>
+<li>	*GOV IPS: For Sovereign Clouds, The CLI command for [Vnet/Forced tunneling](http://https://docs.microsoft.com/en-us/azure/machine-learning/how-to-enable-virtual-network "Vnet/Forced tunneling") does not return IP ranges: please use the [list](https://www.microsoft.com/en-us/download/details.aspx?id=57063) which contains the IPs for USGOV cloud.</li>
+<li> *For scheduled pipelines, we also provide a blob based trigger mechanism. This mechanism is not supported for CMK workspaces. . For enabling blob based trigger for CMK workspaces, user has to do additional setup which is documented here: https://docs.microsoft.com/en-us/azure/machine-learning/how-to-trigger-published-pipeline</li>
+ <li> *FireWalls: When using USGOV - make sure to add additional hosts in their firewall setting: For Arizona use:  "usgovarizona.api.ml.azure.us", for Virginia use: "usgovvirginia.api.ml.azure.us". Also double check - "graph.windows.net" is added as well. </li>
 </ol>
 
 <h2>China Parity</h2>	
@@ -213,13 +211,13 @@ All Azure Machine Learning features will be available in Sovereign clouds within
 
 
 
-<h2>Additional China Limitations:</h2>
+<h2> *Additional China Limitations:</h2>
 <ol>
-<li>	Azure China has limited VM SKU, especially for GPU SKU, only has NCv3 family (V100) </li>
-<li>	REST API Endpoint is different from public Azure:   </li>
-<li>	Sample notebook may not work, if it needs access to public data in USGOV.</li>
-<li>	For Sovereign Clouds, The CLI command for  [Vnet/Forced tunneling](http://https://docs.microsoft.com/en-us/azure/machine-learning/how-to-enable-virtual-network "Vnet/Forced tunneling") does not return IP ranges: please use this [list](https://www.microsoft.com/en-in/download/details.aspx?id=57062) contains the IP Ranges for China Sovereign clouds.</li>
-<li> Azure Machine Learning compute instances preview is not supported in a workspace where Private Link is enabled for now, but CI will be supported in the next deployment for the service expansion to all AML regions.</li>
+<li>	*Azure China has limited VM SKU, especially for GPU SKU, only has NCv3 family (V100) </li>
+<li>	*REST API Endpoint is different from public Azure:   </li>
+<li>	*Sample notebook may not work, if it needs access to public data in USGOV.</li>
+<li>	*For Sovereign Clouds, The CLI command for  [Vnet/Forced tunneling](http://https://docs.microsoft.com/en-us/azure/machine-learning/how-to-enable-virtual-network "Vnet/Forced tunneling") does not return IP ranges: please use this [list](https://www.microsoft.com/en-in/download/details.aspx?id=57062) contains the IP Ranges for China Sovereign clouds.</li>
+<li> *Azure Machine Learning compute instances preview is not supported in a workspace where Private Link is enabled for now, but CI will be supported in the next deployment for the service expansion to all AML regions.</li>
   
 </ol>
 

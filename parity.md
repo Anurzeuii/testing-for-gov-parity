@@ -142,6 +142,7 @@ All Azure Machine Learning features will be available in Sovereign clouds within
 | Create, edit and delete scheduled runs of pipelines using the Azure ML SDK | GA               | YES       | N/A        |
 | View pipeline run details in studio                                        | GA               | YES       | N/A        |
 | Create, run, visualize and publish pipelines in Azure ML designer          | Public Preview   | YES       | N/A        |
+| Azure Data bricks Integration with ML Pipeline                             | GA               | NO        | N/A        |
 | Create pipeline endpoints in Azure ML designer                             | Public Preview   | YES       | N/A        |
 | <h4>Integrated notebooks</h4>                                                       |                  | <h4>CH-East 2</h4> | <h4>CH-North 3</h4> |
 | Workspace notebook and file sharing                                        | GA               | YES       | N/A        |
@@ -165,6 +166,7 @@ All Azure Machine Learning features will be available in Sovereign clouds within
 | Private IP of Compute Cluster                                              | Private Preview  | NO        | N/A        |
 | Private IP of Compute Instance                                             | Development      | NO        | N/A        |
 | Private endpoint support of associated resources(Storage, KV, ACR)         | Development      | NO        | N/A        |
+| Role Based Access Control (RBAC)                                           | Private Preview  | YES       | N/A        |
 | Private IP of AKS cluster                                                  | Public Preview   | NO        | N/A        |
 | <h4>Compute</h4>                                                                    |                  | <h4>CH-East 2</h4> | <h4>CH-North 3</h4> |
 | quota management across workspaces                                         | GA               | YES       | N/A        |

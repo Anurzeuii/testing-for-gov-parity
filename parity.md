@@ -212,5 +212,4 @@ All Azure Machine Learning features will be available in Sovereign clouds within
 |------------------|--------------------------------------------|--------------------------------------------|
 | Management plane | https://management.azure.com/              | https://management.chinacloudapi.cn/       |
 | Data plane       | https://{location}.experiments.azureml.net | https://{location}.experiments.ml.azure.cn |
-|                  |                                            |                                            |
-| AAD              | https://login.microsoftonline.com          | https://login.chinacloudapi.cn           
+| AAD              | https://login.microsoftonline.com          | https://login.chinacloudapi.cn             |

@@ -86,14 +86,10 @@ All Azure Machine Learning features will be available in Sovereign clouds within
 | Open Datasets                                                              | Public Preview       | YES                | YES         |
 | Custom Cognitive Search                                                    | Public Preview       | YES                | YES         |
 | Many Models                                                                | Public Preview       | NO                 | NO          |
-| <h4>RBAC </h4>                                                                      |                      | <h4>US-Virginia  </h4>      | <h4>US-Arizona </h4> |
-| Fine Grain Access Control (Advanced RBAC)                                  | Private Preview*     | YES                | YES         |
-| Custom Role Creation                                                       | Private Preview*     | YES                | YES         |
+
 
 <h2>USGOV SCENARIOS:</h2>
 
-| Features                                                            | |    | |
-|----------------------------------------------------------------------------|----------------------|--------------------|----|
 |<h4>General Security Setup</h4>                                                     | <h4>US-Virginia</h4> | <h4>US-Arizona</h4>| <h4>GOV Limitations </h4> |
 | Private network communication between services                                     | NO | NO | No end-to-end Private Link right now for USGOV | 
 | "Disable/control internet access (inbound and outbound) and specific VNet          | PARTIAL| PARTIAL	| ACR behind vnet are not avaible in UGOV - double checking on ACI | 
